@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="regist_web"
+  id="myeclipse.1494141368747"
+  context-root="/regist_web"
+  j2ee-spec="5.0"
+  archive="regist_web.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+
