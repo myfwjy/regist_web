@@ -33,6 +33,7 @@ public class MailUtils {
 		Session session = Session.getInstance(props, new Authenticator() {
 			@Override
 			protected PasswordAuthentication getPasswordAuthentication() {
+				// 专门用来发送激活邮件的邮箱
 				return new PasswordAuthentication("service@store.com", "111");
 			}
 		});
